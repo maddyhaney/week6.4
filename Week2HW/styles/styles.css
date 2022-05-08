@@ -1,0 +1,37 @@
+h1,
+h2,
+p,
+button {
+  font-family: "Mukta", sans-serif;
+  color: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 200, 124) 0%,
+    rgb(252, 251, 121) 90%
+  );
+}
+
+button {
+  position: static;
+}
+form {
+  position: relative;
+  padding: 20px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 40px;
+}
+p {
+  font-size: 25px;
+}
+button {
+  border-radius: 15px;
+  display: inline-block;
+  width: 100px;
+}
+body {
+  background-color: rgb(254, 210, 123);
+}
